@@ -3,33 +3,165 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		303532C32FC72C050062964D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303532B92FC72C050062964D /* Assets.xcassets */; };
+		303532C52FC72C050062964D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303532BD2FC72C050062964D /* LaunchScreen.storyboard */; };
+		303532C62FC72C050062964D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303532BF2FC72C050062964D /* Main.storyboard */; };
+		303532C72FC72C050062964D /* BadgeGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532722FC72C050062964D /* BadgeGridCell.swift */; };
+		303532C82FC72C050062964D /* CalendarDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532732FC72C050062964D /* CalendarDayCell.swift */; };
+		303532C92FC72C050062964D /* ChallengeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532742FC72C050062964D /* ChallengeListCell.swift */; };
+		303532CA2FC72C050062964D /* DetailMetricCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532752FC72C050062964D /* DetailMetricCell.swift */; };
+		303532CB2FC72C050062964D /* EntryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532762FC72C050062964D /* EntryListCell.swift */; };
+		303532CC2FC72C050062964D /* FlowerGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532772FC72C050062964D /* FlowerGridCell.swift */; };
+		303532CD2FC72C050062964D /* GardenStatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532782FC72C050062964D /* GardenStatCell.swift */; };
+		303532CE2FC72C050062964D /* QuoteHighlightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532792FC72C050062964D /* QuoteHighlightCell.swift */; };
+		303532CF2FC72C050062964D /* QuoteListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3035327A2FC72C050062964D /* QuoteListCell.swift */; };
+		303532D02FC72C050062964D /* DailyPromptSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3035327C2FC72C050062964D /* DailyPromptSheet.swift */; };
+		303532D12FC72C050062964D /* EntryPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3035327D2FC72C050062964D /* EntryPhotoView.swift */; };
+		303532D22FC72C050062964D /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3035327E2FC72C050062964D /* FlowLayout.swift */; };
+		303532D32FC72C050062964D /* MoodPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3035327F2FC72C050062964D /* MoodPickerView.swift */; };
+		303532D42FC72C050062964D /* WordCloudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532802FC72C050062964D /* WordCloudView.swift */; };
+		303532D52FC72C050062964D /* GardenDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532822FC72C050062964D /* GardenDesign.swift */; };
+		303532D62FC72C050062964D /* Color+Garden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532842FC72C050062964D /* Color+Garden.swift */; };
+		303532D72FC72C050062964D /* EntryTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532862FC72C050062964D /* EntryTemplate.swift */; };
+		303532D82FC72C050062964D /* GardenBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532872FC72C050062964D /* GardenBadge.swift */; };
+		303532D92FC72C050062964D /* GardenFlower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532882FC72C050062964D /* GardenFlower.swift */; };
+		303532DA2FC72C050062964D /* GratitudeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532892FC72C050062964D /* GratitudeCategory.swift */; };
+		303532DB2FC72C050062964D /* GratitudeChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3035328A2FC72C050062964D /* GratitudeChallenge.swift */; };
+		303532DC2FC72C050062964D /* GratitudeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3035328B2FC72C050062964D /* GratitudeEntry.swift */; };
+		303532DD2FC72C050062964D /* GratitudeMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3035328C2FC72C050062964D /* GratitudeMood.swift */; };
+		303532DE2FC72C050062964D /* GratitudeQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3035328D2FC72C050062964D /* GratitudeQuote.swift */; };
+		303532DF2FC72C050062964D /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3035328F2FC72C050062964D /* AppLinks.swift */; };
+		303532E02FC72C050062964D /* DailyPromptProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532902FC72C050062964D /* DailyPromptProvider.swift */; };
+		303532E12FC72C050062964D /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532912FC72C050062964D /* DateFormatting.swift */; };
+		303532E22FC72C050062964D /* DemoImageFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532922FC72C050062964D /* DemoImageFactory.swift */; };
+		303532E32FC72C050062964D /* GardenSeason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532932FC72C050062964D /* GardenSeason.swift */; };
+		303532E42FC72C050062964D /* ImageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532942FC72C050062964D /* ImageStorage.swift */; };
+		303532E52FC72C050062964D /* WordCloudHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532952FC72C050062964D /* WordCloudHelper.swift */; };
+		303532E62FC72C050062964D /* GratitudeSpaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532972FC72C050062964D /* GratitudeSpaceViewModel.swift */; };
+		303532E72FC72C050062964D /* GratitudeSpaceViewModel+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532982FC72C050062964D /* GratitudeSpaceViewModel+Home.swift */; };
+		303532E82FC72C050062964D /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3035329A2FC72C050062964D /* CalendarView.swift */; };
+		303532E92FC72C050062964D /* AddChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3035329C2FC72C050062964D /* AddChallengeView.swift */; };
+		303532EA2FC72C050062964D /* ChallengesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3035329D2FC72C050062964D /* ChallengesView.swift */; };
+		303532EB2FC72C050062964D /* AddEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3035329F2FC72C050062964D /* AddEntryView.swift */; };
+		303532EC2FC72C050062964D /* EditEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532A02FC72C050062964D /* EditEntryView.swift */; };
+		303532ED2FC72C050062964D /* EntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532A12FC72C050062964D /* EntryDetailView.swift */; };
+		303532EE2FC72C050062964D /* EntryFormFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532A22FC72C050062964D /* EntryFormFields.swift */; };
+		303532EF2FC72C050062964D /* GardenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532A42FC72C050062964D /* GardenView.swift */; };
+		303532F02FC72C050062964D /* HomeGardenRecentWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532A62FC72C050062964D /* HomeGardenRecentWidgets.swift */; };
+		303532F12FC72C050062964D /* HomeHeroWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532A72FC72C050062964D /* HomeHeroWidget.swift */; };
+		303532F22FC72C050062964D /* HomePhotoGalleryWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532A82FC72C050062964D /* HomePhotoGalleryWidget.swift */; };
+		303532F32FC72C050062964D /* HomePromptQuoteWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532A92FC72C050062964D /* HomePromptQuoteWidgets.swift */; };
+		303532F42FC72C050062964D /* HomeStatsGridWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532AA2FC72C050062964D /* HomeStatsGridWidget.swift */; };
+		303532F52FC72C050062964D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532AC2FC72C050062964D /* HomeView.swift */; };
+		303532F62FC72C050062964D /* HomeWidgetContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532AD2FC72C050062964D /* HomeWidgetContainer.swift */; };
+		303532F72FC72C050062964D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532AF2FC72C050062964D /* OnboardingView.swift */; };
+		303532F82FC72C050062964D /* QuotesLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532B12FC72C050062964D /* QuotesLibraryView.swift */; };
+		303532F92FC72C050062964D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532B32FC72C050062964D /* SettingsView.swift */; };
+		303532FA2FC72C050062964D /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532B52FC72C050062964D /* StatsView.swift */; };
+		303532FB2FC72C050062964D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532B82FC72C050062964D /* AppDelegate.swift */; };
+		303532FC2FC72C050062964D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532BA2FC72C050062964D /* ContentView.swift */; };
+		303532FD2FC72C050062964D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532C02FC72C050062964D /* SceneDelegate.swift */; };
+		303532FE2FC72C050062964D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532C12FC72C050062964D /* ViewController.swift */; };
+		3035330D2FC72C110062964D /* LaunchFlowDebugOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303533022FC72C110062964D /* LaunchFlowDebugOptions.swift */; };
+		3035330E2FC72C110062964D /* WebDocumentSurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3035330B2FC72C110062964D /* WebDocumentSurfaceView.swift */; };
+		3035330F2FC72C110062964D /* LaunchDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303533012FC72C110062964D /* LaunchDestination.swift */; };
+		303533102FC72C110062964D /* LaunchStagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303533072FC72C110062964D /* LaunchStagingState.swift */; };
+		303533112FC72C110062964D /* LaunchFlowResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303533042FC72C110062964D /* LaunchFlowResolver.swift */; };
+		303533122FC72C110062964D /* LaunchFlowLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303533032FC72C110062964D /* LaunchFlowLogger.swift */; };
+		303533132FC72C110062964D /* CalendarGateEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303532FF2FC72C110062964D /* CalendarGateEvaluator.swift */; };
+		303533142FC72C110062964D /* LaunchSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303533062FC72C110062964D /* LaunchSessionStore.swift */; };
+		303533152FC72C110062964D /* LaunchFlowSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303533052FC72C110062964D /* LaunchFlowSecrets.swift */; };
+		303533162FC72C110062964D /* RemoteEntryProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303533082FC72C110062964D /* RemoteEntryProbe.swift */; };
+		303533172FC72C110062964D /* RootWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3035330A2FC72C110062964D /* RootWindowPresenter.swift */; };
+		303533182FC72C110062964D /* DeferredLaunchCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303533002FC72C110062964D /* DeferredLaunchCanvas.swift */; };
+		303533192FC72C110062964D /* RemoteEntryURLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303533092FC72C110062964D /* RemoteEntryURLComposer.swift */; };
+		3035331C2FC72C150062964D /* AppMarketingCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3035331A2FC72C150062964D /* AppMarketingCopy.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		2E48747680A8FCBF3A2D536A /* Pods_174GratitudeSpace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_174GratitudeSpace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30059C2A2FC479AD007F3C69 /* 174GratitudeSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 174GratitudeSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		303532722FC72C050062964D /* BadgeGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeGridCell.swift; sourceTree = "<group>"; };
+		303532732FC72C050062964D /* CalendarDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDayCell.swift; sourceTree = "<group>"; };
+		303532742FC72C050062964D /* ChallengeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeListCell.swift; sourceTree = "<group>"; };
+		303532752FC72C050062964D /* DetailMetricCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMetricCell.swift; sourceTree = "<group>"; };
+		303532762FC72C050062964D /* EntryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryListCell.swift; sourceTree = "<group>"; };
+		303532772FC72C050062964D /* FlowerGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerGridCell.swift; sourceTree = "<group>"; };
+		303532782FC72C050062964D /* GardenStatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenStatCell.swift; sourceTree = "<group>"; };
+		303532792FC72C050062964D /* QuoteHighlightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteHighlightCell.swift; sourceTree = "<group>"; };
+		3035327A2FC72C050062964D /* QuoteListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListCell.swift; sourceTree = "<group>"; };
+		3035327C2FC72C050062964D /* DailyPromptSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPromptSheet.swift; sourceTree = "<group>"; };
+		3035327D2FC72C050062964D /* EntryPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPhotoView.swift; sourceTree = "<group>"; };
+		3035327E2FC72C050062964D /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		3035327F2FC72C050062964D /* MoodPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodPickerView.swift; sourceTree = "<group>"; };
+		303532802FC72C050062964D /* WordCloudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCloudView.swift; sourceTree = "<group>"; };
+		303532822FC72C050062964D /* GardenDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenDesign.swift; sourceTree = "<group>"; };
+		303532842FC72C050062964D /* Color+Garden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Garden.swift"; sourceTree = "<group>"; };
+		303532862FC72C050062964D /* EntryTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTemplate.swift; sourceTree = "<group>"; };
+		303532872FC72C050062964D /* GardenBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenBadge.swift; sourceTree = "<group>"; };
+		303532882FC72C050062964D /* GardenFlower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenFlower.swift; sourceTree = "<group>"; };
+		303532892FC72C050062964D /* GratitudeCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeCategory.swift; sourceTree = "<group>"; };
+		3035328A2FC72C050062964D /* GratitudeChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeChallenge.swift; sourceTree = "<group>"; };
+		3035328B2FC72C050062964D /* GratitudeEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeEntry.swift; sourceTree = "<group>"; };
+		3035328C2FC72C050062964D /* GratitudeMood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeMood.swift; sourceTree = "<group>"; };
+		3035328D2FC72C050062964D /* GratitudeQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeQuote.swift; sourceTree = "<group>"; };
+		3035328F2FC72C050062964D /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		303532902FC72C050062964D /* DailyPromptProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPromptProvider.swift; sourceTree = "<group>"; };
+		303532912FC72C050062964D /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
+		303532922FC72C050062964D /* DemoImageFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoImageFactory.swift; sourceTree = "<group>"; };
+		303532932FC72C050062964D /* GardenSeason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenSeason.swift; sourceTree = "<group>"; };
+		303532942FC72C050062964D /* ImageStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStorage.swift; sourceTree = "<group>"; };
+		303532952FC72C050062964D /* WordCloudHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCloudHelper.swift; sourceTree = "<group>"; };
+		303532972FC72C050062964D /* GratitudeSpaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeSpaceViewModel.swift; sourceTree = "<group>"; };
+		303532982FC72C050062964D /* GratitudeSpaceViewModel+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GratitudeSpaceViewModel+Home.swift"; sourceTree = "<group>"; };
+		3035329A2FC72C050062964D /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		3035329C2FC72C050062964D /* AddChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChallengeView.swift; sourceTree = "<group>"; };
+		3035329D2FC72C050062964D /* ChallengesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesView.swift; sourceTree = "<group>"; };
+		3035329F2FC72C050062964D /* AddEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryView.swift; sourceTree = "<group>"; };
+		303532A02FC72C050062964D /* EditEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEntryView.swift; sourceTree = "<group>"; };
+		303532A12FC72C050062964D /* EntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailView.swift; sourceTree = "<group>"; };
+		303532A22FC72C050062964D /* EntryFormFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryFormFields.swift; sourceTree = "<group>"; };
+		303532A42FC72C050062964D /* GardenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenView.swift; sourceTree = "<group>"; };
+		303532A62FC72C050062964D /* HomeGardenRecentWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGardenRecentWidgets.swift; sourceTree = "<group>"; };
+		303532A72FC72C050062964D /* HomeHeroWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeroWidget.swift; sourceTree = "<group>"; };
+		303532A82FC72C050062964D /* HomePhotoGalleryWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePhotoGalleryWidget.swift; sourceTree = "<group>"; };
+		303532A92FC72C050062964D /* HomePromptQuoteWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePromptQuoteWidgets.swift; sourceTree = "<group>"; };
+		303532AA2FC72C050062964D /* HomeStatsGridWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsGridWidget.swift; sourceTree = "<group>"; };
+		303532AC2FC72C050062964D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		303532AD2FC72C050062964D /* HomeWidgetContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidgetContainer.swift; sourceTree = "<group>"; };
+		303532AF2FC72C050062964D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		303532B12FC72C050062964D /* QuotesLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesLibraryView.swift; sourceTree = "<group>"; };
+		303532B32FC72C050062964D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		303532B52FC72C050062964D /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		303532B82FC72C050062964D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		303532B92FC72C050062964D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		303532BA2FC72C050062964D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		303532BB2FC72C050062964D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303532BC2FC72C050062964D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		303532BE2FC72C050062964D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		303532C02FC72C050062964D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		303532C12FC72C050062964D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		303532FF2FC72C110062964D /* CalendarGateEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGateEvaluator.swift; sourceTree = "<group>"; };
+		303533002FC72C110062964D /* DeferredLaunchCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeferredLaunchCanvas.swift; sourceTree = "<group>"; };
+		303533012FC72C110062964D /* LaunchDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDestination.swift; sourceTree = "<group>"; };
+		303533022FC72C110062964D /* LaunchFlowDebugOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowDebugOptions.swift; sourceTree = "<group>"; };
+		303533032FC72C110062964D /* LaunchFlowLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowLogger.swift; sourceTree = "<group>"; };
+		303533042FC72C110062964D /* LaunchFlowResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowResolver.swift; sourceTree = "<group>"; };
+		303533052FC72C110062964D /* LaunchFlowSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlowSecrets.swift; sourceTree = "<group>"; };
+		303533062FC72C110062964D /* LaunchSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSessionStore.swift; sourceTree = "<group>"; };
+		303533072FC72C110062964D /* LaunchStagingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchStagingState.swift; sourceTree = "<group>"; };
+		303533082FC72C110062964D /* RemoteEntryProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryProbe.swift; sourceTree = "<group>"; };
+		303533092FC72C110062964D /* RemoteEntryURLComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteEntryURLComposer.swift; sourceTree = "<group>"; };
+		3035330A2FC72C110062964D /* RootWindowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWindowPresenter.swift; sourceTree = "<group>"; };
+		3035330B2FC72C110062964D /* WebDocumentSurfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebDocumentSurfaceView.swift; sourceTree = "<group>"; };
+		3035331A2FC72C150062964D /* AppMarketingCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMarketingCopy.swift; sourceTree = "<group>"; };
+		80DA5E994E2C37CA17F0BF54 /* Pods-174GratitudeSpace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-174GratitudeSpace.debug.xcconfig"; path = "Target Support Files/Pods-174GratitudeSpace/Pods-174GratitudeSpace.debug.xcconfig"; sourceTree = "<group>"; };
+		CC237A1917928221433AC13C /* Pods-174GratitudeSpace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-174GratitudeSpace.release.xcconfig"; path = "Target Support Files/Pods-174GratitudeSpace/Pods-174GratitudeSpace.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		30059C3C2FC479AE007F3C69 /* Exceptions for "174GratitudeSpace" folder in "174GratitudeSpace" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 30059C292FC479AD007F3C69 /* 174GratitudeSpace */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		30059C2C2FC479AD007F3C69 /* 174GratitudeSpace */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				30059C3C2FC479AE007F3C69 /* Exceptions for "174GratitudeSpace" folder in "174GratitudeSpace" target */,
-			);
-			path = 174GratitudeSpace;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		30059C272FC479AD007F3C69 /* Frameworks */ = {
@@ -45,8 +177,10 @@
 		30059C212FC479AD007F3C69 = {
 			isa = PBXGroup;
 			children = (
-				30059C2C2FC479AD007F3C69 /* 174GratitudeSpace */,
+				303532C22FC72C050062964D /* 174GratitudeSpace */,
 				30059C2B2FC479AD007F3C69 /* Products */,
+				C53C204BFC41E3EE13C9D94B /* Pods */,
+				478BAF7EEA97781157DC03FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +192,264 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3035327B2FC72C050062964D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				303532722FC72C050062964D /* BadgeGridCell.swift */,
+				303532732FC72C050062964D /* CalendarDayCell.swift */,
+				303532742FC72C050062964D /* ChallengeListCell.swift */,
+				303532752FC72C050062964D /* DetailMetricCell.swift */,
+				303532762FC72C050062964D /* EntryListCell.swift */,
+				303532772FC72C050062964D /* FlowerGridCell.swift */,
+				303532782FC72C050062964D /* GardenStatCell.swift */,
+				303532792FC72C050062964D /* QuoteHighlightCell.swift */,
+				3035327A2FC72C050062964D /* QuoteListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		303532812FC72C050062964D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3035327C2FC72C050062964D /* DailyPromptSheet.swift */,
+				3035327D2FC72C050062964D /* EntryPhotoView.swift */,
+				3035327E2FC72C050062964D /* FlowLayout.swift */,
+				3035327F2FC72C050062964D /* MoodPickerView.swift */,
+				303532802FC72C050062964D /* WordCloudView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		303532832FC72C050062964D /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				303532822FC72C050062964D /* GardenDesign.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		303532852FC72C050062964D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				303532842FC72C050062964D /* Color+Garden.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3035328E2FC72C050062964D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				303532862FC72C050062964D /* EntryTemplate.swift */,
+				303532872FC72C050062964D /* GardenBadge.swift */,
+				303532882FC72C050062964D /* GardenFlower.swift */,
+				303532892FC72C050062964D /* GratitudeCategory.swift */,
+				3035328A2FC72C050062964D /* GratitudeChallenge.swift */,
+				3035328B2FC72C050062964D /* GratitudeEntry.swift */,
+				3035328C2FC72C050062964D /* GratitudeMood.swift */,
+				3035328D2FC72C050062964D /* GratitudeQuote.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		303532962FC72C050062964D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3035328F2FC72C050062964D /* AppLinks.swift */,
+				303532902FC72C050062964D /* DailyPromptProvider.swift */,
+				303532912FC72C050062964D /* DateFormatting.swift */,
+				303532922FC72C050062964D /* DemoImageFactory.swift */,
+				303532932FC72C050062964D /* GardenSeason.swift */,
+				303532942FC72C050062964D /* ImageStorage.swift */,
+				303532952FC72C050062964D /* WordCloudHelper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		303532992FC72C050062964D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				303532972FC72C050062964D /* GratitudeSpaceViewModel.swift */,
+				303532982FC72C050062964D /* GratitudeSpaceViewModel+Home.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3035329B2FC72C050062964D /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				3035329A2FC72C050062964D /* CalendarView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		3035329E2FC72C050062964D /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				3035329C2FC72C050062964D /* AddChallengeView.swift */,
+				3035329D2FC72C050062964D /* ChallengesView.swift */,
+			);
+			path = Challenges;
+			sourceTree = "<group>";
+		};
+		303532A32FC72C050062964D /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				3035329F2FC72C050062964D /* AddEntryView.swift */,
+				303532A02FC72C050062964D /* EditEntryView.swift */,
+				303532A12FC72C050062964D /* EntryDetailView.swift */,
+				303532A22FC72C050062964D /* EntryFormFields.swift */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		303532A52FC72C050062964D /* Garden */ = {
+			isa = PBXGroup;
+			children = (
+				303532A42FC72C050062964D /* GardenView.swift */,
+			);
+			path = Garden;
+			sourceTree = "<group>";
+		};
+		303532AB2FC72C050062964D /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				303532A62FC72C050062964D /* HomeGardenRecentWidgets.swift */,
+				303532A72FC72C050062964D /* HomeHeroWidget.swift */,
+				303532A82FC72C050062964D /* HomePhotoGalleryWidget.swift */,
+				303532A92FC72C050062964D /* HomePromptQuoteWidgets.swift */,
+				303532AA2FC72C050062964D /* HomeStatsGridWidget.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		303532AE2FC72C050062964D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				303532AB2FC72C050062964D /* Widgets */,
+				303532AC2FC72C050062964D /* HomeView.swift */,
+				303532AD2FC72C050062964D /* HomeWidgetContainer.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		303532B02FC72C050062964D /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				303532AF2FC72C050062964D /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		303532B22FC72C050062964D /* Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				303532B12FC72C050062964D /* QuotesLibraryView.swift */,
+			);
+			path = Quotes;
+			sourceTree = "<group>";
+		};
+		303532B42FC72C050062964D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				303532B32FC72C050062964D /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		303532B62FC72C050062964D /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				303532B52FC72C050062964D /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		303532B72FC72C050062964D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3035329B2FC72C050062964D /* Calendar */,
+				3035329E2FC72C050062964D /* Challenges */,
+				303532A32FC72C050062964D /* Entry */,
+				303532A52FC72C050062964D /* Garden */,
+				303532AE2FC72C050062964D /* Home */,
+				303532B02FC72C050062964D /* Onboarding */,
+				303532B22FC72C050062964D /* Quotes */,
+				303532B42FC72C050062964D /* Settings */,
+				303532B62FC72C050062964D /* Stats */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		303532C22FC72C050062964D /* 174GratitudeSpace */ = {
+			isa = PBXGroup;
+			children = (
+				3035327B2FC72C050062964D /* Cells */,
+				303532812FC72C050062964D /* Components */,
+				303532832FC72C050062964D /* Design */,
+				303532852FC72C050062964D /* Extensions */,
+				3035328E2FC72C050062964D /* Models */,
+				303532962FC72C050062964D /* Utilities */,
+				303532992FC72C050062964D /* ViewModels */,
+				303532B72FC72C050062964D /* Views */,
+				303532B82FC72C050062964D /* AppDelegate.swift */,
+				303532B92FC72C050062964D /* Assets.xcassets */,
+				303532BA2FC72C050062964D /* ContentView.swift */,
+				303532BB2FC72C050062964D /* Info.plist */,
+				303532BD2FC72C050062964D /* LaunchScreen.storyboard */,
+				303532BF2FC72C050062964D /* Main.storyboard */,
+				303532C02FC72C050062964D /* SceneDelegate.swift */,
+				303532C12FC72C050062964D /* ViewController.swift */,
+				3035330C2FC72C110062964D /* LaunchFlow */,
+				3035331B2FC72C150062964D /* Resources */,
+			);
+			path = 174GratitudeSpace;
+			sourceTree = "<group>";
+		};
+		3035330C2FC72C110062964D /* LaunchFlow */ = {
+			isa = PBXGroup;
+			children = (
+				303532FF2FC72C110062964D /* CalendarGateEvaluator.swift */,
+				303533002FC72C110062964D /* DeferredLaunchCanvas.swift */,
+				303533012FC72C110062964D /* LaunchDestination.swift */,
+				303533022FC72C110062964D /* LaunchFlowDebugOptions.swift */,
+				303533032FC72C110062964D /* LaunchFlowLogger.swift */,
+				303533042FC72C110062964D /* LaunchFlowResolver.swift */,
+				303533052FC72C110062964D /* LaunchFlowSecrets.swift */,
+				303533062FC72C110062964D /* LaunchSessionStore.swift */,
+				303533072FC72C110062964D /* LaunchStagingState.swift */,
+				303533082FC72C110062964D /* RemoteEntryProbe.swift */,
+				303533092FC72C110062964D /* RemoteEntryURLComposer.swift */,
+				3035330A2FC72C110062964D /* RootWindowPresenter.swift */,
+				3035330B2FC72C110062964D /* WebDocumentSurfaceView.swift */,
+			);
+			path = LaunchFlow;
+			sourceTree = "<group>";
+		};
+		3035331B2FC72C150062964D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3035331A2FC72C150062964D /* AppMarketingCopy.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		478BAF7EEA97781157DC03FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E48747680A8FCBF3A2D536A /* Pods_174GratitudeSpace.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C53C204BFC41E3EE13C9D94B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80DA5E994E2C37CA17F0BF54 /* Pods-174GratitudeSpace.debug.xcconfig */,
+				CC237A1917928221433AC13C /* Pods-174GratitudeSpace.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +457,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30059C3D2FC479AE007F3C69 /* Build configuration list for PBXNativeTarget "174GratitudeSpace" */;
 			buildPhases = (
+				6469E7F25406B7167B7ADDBF /* [CP] Check Pods Manifest.lock */,
 				30059C262FC479AD007F3C69 /* Sources */,
 				30059C272FC479AD007F3C69 /* Frameworks */,
 				30059C282FC479AD007F3C69 /* Resources */,
@@ -73,12 +466,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				30059C2C2FC479AD007F3C69 /* 174GratitudeSpace */,
-			);
 			name = 174GratitudeSpace;
-			packageProductDependencies = (
-			);
 			productName = 174GratitudeSpace;
 			productReference = 30059C2A2FC479AD007F3C69 /* 174GratitudeSpace.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +487,7 @@
 				};
 			};
 			buildConfigurationList = 30059C252FC479AD007F3C69 /* Build configuration list for PBXProject "174GratitudeSpace" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +495,6 @@
 				Base,
 			);
 			mainGroup = 30059C212FC479AD007F3C69;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 30059C2B2FC479AD007F3C69 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +509,142 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303532C32FC72C050062964D /* Assets.xcassets in Resources */,
+				303532C52FC72C050062964D /* LaunchScreen.storyboard in Resources */,
+				303532C62FC72C050062964D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6469E7F25406B7167B7ADDBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-174GratitudeSpace-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30059C262FC479AD007F3C69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303532C72FC72C050062964D /* BadgeGridCell.swift in Sources */,
+				303532C82FC72C050062964D /* CalendarDayCell.swift in Sources */,
+				303532C92FC72C050062964D /* ChallengeListCell.swift in Sources */,
+				303532CA2FC72C050062964D /* DetailMetricCell.swift in Sources */,
+				303532CB2FC72C050062964D /* EntryListCell.swift in Sources */,
+				303532CC2FC72C050062964D /* FlowerGridCell.swift in Sources */,
+				303532CD2FC72C050062964D /* GardenStatCell.swift in Sources */,
+				303532CE2FC72C050062964D /* QuoteHighlightCell.swift in Sources */,
+				303532CF2FC72C050062964D /* QuoteListCell.swift in Sources */,
+				303532D02FC72C050062964D /* DailyPromptSheet.swift in Sources */,
+				303532D12FC72C050062964D /* EntryPhotoView.swift in Sources */,
+				303532D22FC72C050062964D /* FlowLayout.swift in Sources */,
+				303532D32FC72C050062964D /* MoodPickerView.swift in Sources */,
+				303532D42FC72C050062964D /* WordCloudView.swift in Sources */,
+				303532D52FC72C050062964D /* GardenDesign.swift in Sources */,
+				3035330D2FC72C110062964D /* LaunchFlowDebugOptions.swift in Sources */,
+				3035330E2FC72C110062964D /* WebDocumentSurfaceView.swift in Sources */,
+				3035330F2FC72C110062964D /* LaunchDestination.swift in Sources */,
+				303533102FC72C110062964D /* LaunchStagingState.swift in Sources */,
+				303533112FC72C110062964D /* LaunchFlowResolver.swift in Sources */,
+				303533122FC72C110062964D /* LaunchFlowLogger.swift in Sources */,
+				3035331C2FC72C150062964D /* AppMarketingCopy.swift in Sources */,
+				303533132FC72C110062964D /* CalendarGateEvaluator.swift in Sources */,
+				303533142FC72C110062964D /* LaunchSessionStore.swift in Sources */,
+				303533152FC72C110062964D /* LaunchFlowSecrets.swift in Sources */,
+				303533162FC72C110062964D /* RemoteEntryProbe.swift in Sources */,
+				303533172FC72C110062964D /* RootWindowPresenter.swift in Sources */,
+				303533182FC72C110062964D /* DeferredLaunchCanvas.swift in Sources */,
+				303533192FC72C110062964D /* RemoteEntryURLComposer.swift in Sources */,
+				303532D62FC72C050062964D /* Color+Garden.swift in Sources */,
+				303532D72FC72C050062964D /* EntryTemplate.swift in Sources */,
+				303532D82FC72C050062964D /* GardenBadge.swift in Sources */,
+				303532D92FC72C050062964D /* GardenFlower.swift in Sources */,
+				303532DA2FC72C050062964D /* GratitudeCategory.swift in Sources */,
+				303532DB2FC72C050062964D /* GratitudeChallenge.swift in Sources */,
+				303532DC2FC72C050062964D /* GratitudeEntry.swift in Sources */,
+				303532DD2FC72C050062964D /* GratitudeMood.swift in Sources */,
+				303532DE2FC72C050062964D /* GratitudeQuote.swift in Sources */,
+				303532DF2FC72C050062964D /* AppLinks.swift in Sources */,
+				303532E02FC72C050062964D /* DailyPromptProvider.swift in Sources */,
+				303532E12FC72C050062964D /* DateFormatting.swift in Sources */,
+				303532E22FC72C050062964D /* DemoImageFactory.swift in Sources */,
+				303532E32FC72C050062964D /* GardenSeason.swift in Sources */,
+				303532E42FC72C050062964D /* ImageStorage.swift in Sources */,
+				303532E52FC72C050062964D /* WordCloudHelper.swift in Sources */,
+				303532E62FC72C050062964D /* GratitudeSpaceViewModel.swift in Sources */,
+				303532E72FC72C050062964D /* GratitudeSpaceViewModel+Home.swift in Sources */,
+				303532E82FC72C050062964D /* CalendarView.swift in Sources */,
+				303532E92FC72C050062964D /* AddChallengeView.swift in Sources */,
+				303532EA2FC72C050062964D /* ChallengesView.swift in Sources */,
+				303532EB2FC72C050062964D /* AddEntryView.swift in Sources */,
+				303532EC2FC72C050062964D /* EditEntryView.swift in Sources */,
+				303532ED2FC72C050062964D /* EntryDetailView.swift in Sources */,
+				303532EE2FC72C050062964D /* EntryFormFields.swift in Sources */,
+				303532EF2FC72C050062964D /* GardenView.swift in Sources */,
+				303532F02FC72C050062964D /* HomeGardenRecentWidgets.swift in Sources */,
+				303532F12FC72C050062964D /* HomeHeroWidget.swift in Sources */,
+				303532F22FC72C050062964D /* HomePhotoGalleryWidget.swift in Sources */,
+				303532F32FC72C050062964D /* HomePromptQuoteWidgets.swift in Sources */,
+				303532F42FC72C050062964D /* HomeStatsGridWidget.swift in Sources */,
+				303532F52FC72C050062964D /* HomeView.swift in Sources */,
+				303532F62FC72C050062964D /* HomeWidgetContainer.swift in Sources */,
+				303532F72FC72C050062964D /* OnboardingView.swift in Sources */,
+				303532F82FC72C050062964D /* QuotesLibraryView.swift in Sources */,
+				303532F92FC72C050062964D /* SettingsView.swift in Sources */,
+				303532FA2FC72C050062964D /* StatsView.swift in Sources */,
+				303532FB2FC72C050062964D /* AppDelegate.swift in Sources */,
+				303532FC2FC72C050062964D /* ContentView.swift in Sources */,
+				303532FD2FC72C050062964D /* SceneDelegate.swift in Sources */,
+				303532FE2FC72C050062964D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		303532BD2FC72C050062964D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303532BC2FC72C050062964D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		303532BF2FC72C050062964D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303532BE2FC72C050062964D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		30059C3E2FC479AE007F3C69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80DA5E994E2C37CA17F0BF54 /* Pods-174GratitudeSpace.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +652,38 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 174GratitudeSpace/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Oasis Of Gratitude";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Add photos to your gratitude entries.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-74GratitudeSpace";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ped.04s1s0fgr5t1t9d3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		30059C3F2FC479AE007F3C69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC237A1917928221433AC13C /* Pods-174GratitudeSpace.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +691,32 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 174GratitudeSpace/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Oasis Of Gratitude";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Add photos to your gratitude entries.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-74GratitudeSpace";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ped.04s1s0fgr5t1t9d3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
